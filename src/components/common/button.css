@@ -1,0 +1,20 @@
+.primary-button {
+    background-color: #f4ce14;
+    color: #495e57;
+    font-family: 'Karla', sans-serif;
+    border: #f4ce14 1px solid;
+    border-radius: 40px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding: 15px 35px;
+    transition: all .2s;
+
+}
+
+.primary-button:hover {
+    background-color:#495e57;
+    color: #f4ce14;
+}

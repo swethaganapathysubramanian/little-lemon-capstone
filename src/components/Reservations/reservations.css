@@ -1,0 +1,32 @@
+form {
+    margin:3% 8%;
+    font-family: 'Karla', sans-serif;
+    height: 80vh;
+    display: grid;
+    grid-template-rows: auto;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+fieldset {
+    border: .5px solid #8484847d;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin-bottom: 2%;
+}
+
+fieldset input, fieldset select {
+    margin: 10px;
+}
+
+fieldset input, fieldset select {
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    width: 30%;
+    border: 1px solid #8484847d;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.button-reserve {
+    margin: 3%;
+}

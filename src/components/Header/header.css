@@ -1,0 +1,53 @@
+header {
+    background-color: #495E57;
+    height:45vh;
+    margin:0;
+    margin-bottom: 10vh;
+    padding:0;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Markazi Text', serif;
+}
+.header-left{
+    margin: 8%;
+    width: 50%;
+    position: relative;
+}
+.header-left-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    width:70%
+}
+.header-title {
+    color: #F4CE14;
+    font-size: 56px;
+    font-weight: 300;
+    line-height: 25px
+}
+.header-subtitle {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 400;
+}
+.header-content{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+.left-button {
+    margin: 10% 0 0 0;
+}
+.header-right {
+    position: relative;
+    width: 30%;
+}
+.hero {
+    height: 450px;
+    width: auto;
+    border-radius: 10%;
+    position: absolute;
+    top:10%;
+    left:0;
+}

@@ -1,0 +1,47 @@
+.about-section{
+    min-height: 60vh;
+    display: flex;
+    margin: 8% 8% 0 8%;
+    overflow: hidden;
+}
+
+.about-title {
+    color: #F4CE14;
+    font-size: 56px;
+    font-weight: 300;
+}
+.about-subtitle {
+    color: #495E57;
+    font-size: 32px;
+    font-weight: 400;
+}
+.about-content{
+    width: 70%;
+    margin-top: 2%;
+    color: #495E57;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 150%;
+}
+
+.about-images img {
+    height: 300px;
+    width: auto;
+}
+
+.about-images {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: 150px;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+    top: -80px;
+    left: 30px;
+  }

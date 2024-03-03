@@ -1,0 +1,25 @@
+nav {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    background-color: #FFF;
+    box-shadow: 0 2px 7px rgba(0,0,0,.3);
+    padding: 1%;
+    font-family: 'Karla', serif;
+    font-weight: 500;
+    font-size: medium;
+}
+.navigation {
+    list-style: none;
+    display: flex;
+    align-items: end;
+    gap: 30px;
+}
+
+li a {
+    all:unset;
+}
+
+nav li:hover {
+    cursor:pointer;
+}
